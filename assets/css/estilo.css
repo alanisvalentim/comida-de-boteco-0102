@@ -1,0 +1,119 @@
+body{
+    font-family:'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,ol li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover{
+    color:#ff8800;
+    font-weight: bold;
+  }
+  
+  .menu{
+    background-color: #ffd3bf;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .menu li{
+    display: inline;
+    padding-left: 80px;
+  }
+  
+  .menu img{
+    width: 40px;
+  }
+  
+  .estilo-imagem{
+    border: solid #ff7331 2px;
+    border-radius: 30px;
+  }
+  
+  .banner > h1{
+    font-family: Pacifico;
+    color:#f1f1f1;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .banner > p{
+    text-align: center;
+  }
+  
+  .banner{
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background-image: url('../images/comida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -16px;
+  }
+  
+  #receita-pastel{
+    margin-top:10px;
+  }
+  
+  .container{
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+  }
+  
+  .sobre-pastel{
+    margin: 50px;
+  }
+  
+  .container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  aside p{
+    text-align: center;
+  }
+  
+  
+  footer{
+    background-color: #ffd3bf;
+  }
+  
+  footer > div{
+    padding:50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer > div > div > ol > li:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .lista-footer > .info > ol > li:nth-child(1){
+    color:rgb(255, 123, 0);
+  }
+
+  .lista-footer > .links > ol > li:nth-child(1){
+    color:rgb(255, 123, 0);
+  }
+  
+  .lista-footer > .redes > ol > li:nth-child(1){
+    color:rgb(255, 123, 0);
+  }
+  
+  
+  .menu > ul > li:last-child{
+    font-weight: bold;
+  }
